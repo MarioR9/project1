@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 2020_02_17_171614) do
     t.string "country"
     t.integer "maxParticipants"
     t.string "location"
+    t.string "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

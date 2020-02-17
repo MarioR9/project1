@@ -8,7 +8,7 @@ class CreateEvents < ActiveRecord::Migration[6.0]
       t.string :country
       t.integer :maxParticipants
       t.string :location
-
+      t.string :user_id
       t.timestamps
     end
   end
