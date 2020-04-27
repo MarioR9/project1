@@ -2997,3 +2997,1322 @@ Processing by Api::V1::EventsController#index as JSON
 Completed 200 OK in 20ms (Views: 14.7ms | ActiveRecord: 8.1ms | Allocations: 9563)
 
 
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:00:00 -0400
+Processing by Api::V1::EventsController#index as JSON
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.73ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.6ms | Allocations: 1682)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:11:22 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.05ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.5ms | Allocations: 1682)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:12:54 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.57ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:14:10 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.88ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:14:50 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (2.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.08ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 2.5ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:16:02 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.09ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.7ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:17:03 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.92ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:17:22 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.92ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.7ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:27:45 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.6ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.8ms | Allocations: 1669)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:32:00 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.11ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 1.2ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:40:51 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.88ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 1.2ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:40:56 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.12ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:42:13 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.08ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:42:59 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.92ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:43:41 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.89ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:44:22 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.0ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-24 17:46:18 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.96ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.7ms | Allocations: 1580)
+
+
+Started GET "/" for ::1 at 2020-04-26 13:03:26 -0400
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/macone/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/macone/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.4ms | Allocations: 317)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 1604)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-04-26 13:03:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.1) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.1) lib/rails/engine.rb:526:in `call'
+puma (4.3.1) lib/puma/configuration.rb:228:in `call'
+puma (4.3.1) lib/puma/server.rb:681:in `handle_request'
+puma (4.3.1) lib/puma/server.rb:472:in `process_client'
+puma (4.3.1) lib/puma/server.rb:328:in `block in run'
+puma (4.3.1) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:09:23 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (36.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.91ms)
+Completed 200 OK in 99ms (Views: 15.4ms | ActiveRecord: 128.3ms | Allocations: 9589)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:10:09 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.6ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:10:09 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:10:11 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:10:20 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.6ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.5ms | Allocations: 1581)
+
+
+Started GET "/api/v1/users" for ::1 at 2020-04-26 13:20:45 -0400
+Processing by Api::V1::UsersController#index as JSON
+  [1m[36mUser Load (42.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1[0m  [["user_id", "1"]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.28ms)
+Completed 200 OK in 78ms (Views: 24.0ms | ActiveRecord: 50.6ms | Allocations: 10091)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:28:05 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.59ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 1.3ms | Allocations: 1669)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:28:14 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.64ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:28:48 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.54ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1597)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:30:27 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.61ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:31:19 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.58ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:31:22 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.61ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:31:32 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.58ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:31:49 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.71ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:32:34 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.58ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-26 13:35:51 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.59ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 13:37:28 -0400
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (38.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.84ms)
+Completed 200 OK in 60ms (Views: 15.1ms | ActiveRecord: 78.6ms | Allocations: 9563)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 13:38:58 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.57ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 13:39:36 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.57ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 13:39:47 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.06ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.7ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 15:37:37 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.6ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.9ms | Allocations: 1686)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 15:41:49 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.95ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 15:44:35 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.86ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 15:45:29 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.58ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 15:46:15 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.64ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 15:46:52 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.9ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:02:13 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (8.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.79ms)
+Completed 200 OK in 12ms (Views: 3.3ms | ActiveRecord: 8.8ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:02:34 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.58ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:06:23 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.8ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:06:35 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.67ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:06:48 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.61ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:07:03 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.65ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:07:11 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.14ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:07:36 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.98ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:08:17 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.57ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:08:55 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.93ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:09:16 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.57ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:09:24 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.75ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:09:28 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.61ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:09:37 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.54ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:09:44 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.54ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:09:50 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:09:52 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.57ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (43.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (35.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_development"[0m
+  [1m[35m (36.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_test"[0m
+  [1m[35m (147.7ms)[0m  [1m[35mCREATE DATABASE "project_development" ENCODING = 'unicode'[0m
+  [1m[35m (76.7ms)[0m  [1m[35mCREATE DATABASE "project_test" ENCODING = 'unicode'[0m
+  [1m[35m (9.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(279088437195799245)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200217171234)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (44.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "platform" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171234"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateEvents (20200217171614)
+  [1m[35m (40.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "title" character varying, "description" text, "images" character varying, "logo" character varying, "country" character varying, "maxParticipants" integer, "location" character varying, "user_id" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171614"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-04-27 20:12:27.941201"], ["updated_at", "2020-04-27 20:12:27.941201"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(279088437195799245)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("platform", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["platform", "Facebook"], ["password", "test"], ["created_at", "2020-04-27 20:12:49.894684"], ["updated_at", "2020-04-27 20:12:49.894684"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "futbol el sabado"], ["description", "se juega el sabado 5 vs 5 cancha de pasto sitentico"], ["images", "http://lapatriaenlinea.com/fotos/05_2011/69925_1_26.jpg/100px180"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "1"], ["created_at", "2020-04-27 20:12:49.910820"], ["updated_at", "2020-04-27 20:12:49.910820"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Martes de fut"], ["description", "martes abierto para todos"], ["images", "https://sialdeporte.com/wp-content/uploads/2018/01/cancha-de-futbol-sala-1-1024x768.jpg/100px180"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "2"], ["created_at", "2020-04-27 20:12:49.914329"], ["updated_at", "2020-04-27 20:12:49.914329"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Desafios Abiertos!"], ["description", "desafios contra mi equipo de 5!"], ["images", "https://www.infobae.com/new-resizer/TV1wXkpG_ydN26TowLQsK53jp7I=/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/24151125/Pollo-Vignolo-Ruggeri-futbol.jpg/100px180"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "3"], ["created_at", "2020-04-27 20:12:49.917227"], ["updated_at", "2020-04-27 20:12:49.917227"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:12:58 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.81ms)
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 6.3ms | Allocations: 9563)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (32.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_development"[0m
+  [1m[35m (28.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_test"[0m
+  [1m[35m (85.8ms)[0m  [1m[35mCREATE DATABASE "project_development" ENCODING = 'unicode'[0m
+  [1m[35m (78.5ms)[0m  [1m[35mCREATE DATABASE "project_test" ENCODING = 'unicode'[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(279088437195799245)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200217171234)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "platform" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171234"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateEvents (20200217171614)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "title" character varying, "description" text, "images" character varying, "logo" character varying, "country" character varying, "maxParticipants" integer, "location" character varying, "user_id" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171614"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-04-27 20:22:56.228076"], ["updated_at", "2020-04-27 20:22:56.228076"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(279088437195799245)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("platform", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["platform", "Facebook"], ["password", "test"], ["created_at", "2020-04-27 20:22:59.491966"], ["updated_at", "2020-04-27 20:22:59.491966"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "futbol el sabado"], ["description", "se juega el sabado 5 vs 5 cancha de pasto sitentico"], ["images", "http://lapatriaenlinea.com/fotos/05_2011/69925_1_26.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "1"], ["created_at", "2020-04-27 20:22:59.508393"], ["updated_at", "2020-04-27 20:22:59.508393"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Martes de fut"], ["description", "martes abierto para todos"], ["images", "https://sialdeporte.com/wp-content/uploads/2018/01/cancha-de-futbol-sala-1-1024x768.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "2"], ["created_at", "2020-04-27 20:22:59.511778"], ["updated_at", "2020-04-27 20:22:59.511778"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Desafios Abiertos!"], ["description", "desafios contra mi equipo de 5!"], ["images", "https://www.infobae.com/new-resizer/TV1wXkpG_ydN26TowLQsK53jp7I=/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/24151125/Pollo-Vignolo-Ruggeri-futbol.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "3"], ["created_at", "2020-04-27 20:22:59.514784"], ["updated_at", "2020-04-27 20:22:59.514784"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:23:07 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.83ms)
+Completed 200 OK in 17ms (Views: 12.9ms | ActiveRecord: 6.5ms | Allocations: 9564)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:23:30 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.33ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:24:25 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.06ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.4ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:29:06 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.72ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:36:23 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.59ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 1.0ms | Allocations: 1682)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:38:07 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:38:47 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.86ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:40:02 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.0ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:40:16 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.59ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:40:40 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.6ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.7ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:40:47 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.62ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:43:28 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.93ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:44:40 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.07ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:50:02 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.61ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:51:21 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.0ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 16:58:12 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.7ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.9ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:04:26 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.67ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.4ms | Allocations: 1669)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:04:56 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.79ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.7ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:04:59 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.15ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:05:06 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.63ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:20:14 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.19ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.0ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:20:19 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.09ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.7ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:24:16 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.85ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:24:26 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.16ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:24:51 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.83ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:27:13 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.55ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:31:51 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.15ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 1.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:34:19 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.76ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:36:09 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.01ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:44:16 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.0ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 1.2ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:44:27 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.77ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:45:13 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.01ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.6ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:45:37 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.79ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.2ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:45:40 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.55ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.5ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:45:42 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.96ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 17:56:43 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.55ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.7ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:06:06 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (10.98ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 1.0ms | Allocations: 1671)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:06:10 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.63ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:12:50 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.9ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.9ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:15:03 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.56ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms | Allocations: 1580)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:22:44 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (2.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.84ms)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 2.5ms | Allocations: 1668)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:25:23 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.9ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.8ms | Allocations: 1580)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (32.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_development"[0m
+  [1m[35m (28.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_test"[0m
+  [1m[35m (76.2ms)[0m  [1m[35mCREATE DATABASE "project_development" ENCODING = 'unicode'[0m
+  [1m[35m (75.8ms)[0m  [1m[35mCREATE DATABASE "project_test" ENCODING = 'unicode'[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(279088437195799245)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200217171234)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "platform" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171234"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateEvents (20200217171614)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "title" character varying, "description" text, "images" character varying, "logo" character varying, "country" character varying, "maxParticipants" integer, "location" character varying, "user_id" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171614"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-04-27 22:34:13.860520"], ["updated_at", "2020-04-27 22:34:13.860520"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(279088437195799245)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("platform", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["platform", "Facebook"], ["password", "test"], ["created_at", "2020-04-27 22:34:17.009341"], ["updated_at", "2020-04-27 22:34:17.009341"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "futbol el sabado"], ["description", "se juega el sabado 5 vs 5 cancha de pasto sitentico"], ["images", "http://lapatriaenlinea.com/fotos/05_2011/69925_1_26.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "1"], ["created_at", "2020-04-27 22:34:17.024996"], ["updated_at", "2020-04-27 22:34:17.024996"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Martes de fut"], ["description", "martes abierto para todos"], ["images", "https://sialdeporte.com/wp-content/uploads/2018/01/cancha-de-futbol-sala-1-1024x768.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "2"], ["created_at", "2020-04-27 22:34:17.028496"], ["updated_at", "2020-04-27 22:34:17.028496"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Desafios Abiertos!"], ["description", "desafios contra mi equipo de 5!"], ["images", "https://www.infobae.com/new-resizer/TV1wXkpG_ydN26TowLQsK53jp7I=/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/24151125/Pollo-Vignolo-Ruggeri-futbol.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "3"], ["created_at", "2020-04-27 22:34:17.031597"], ["updated_at", "2020-04-27 22:34:17.031597"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "futbol el sabado"], ["description", "se juega el sabado 5 vs 5 cancha de pasto sitentico"], ["images", "http://lapatriaenlinea.com/fotos/05_2011/69925_1_26.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "1"], ["created_at", "2020-04-27 22:34:17.034410"], ["updated_at", "2020-04-27 22:34:17.034410"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Martes de fut"], ["description", "martes abierto para todos"], ["images", "https://sialdeporte.com/wp-content/uploads/2018/01/cancha-de-futbol-sala-1-1024x768.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "2"], ["created_at", "2020-04-27 22:34:17.037282"], ["updated_at", "2020-04-27 22:34:17.037282"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Desafios Abiertos!"], ["description", "desafios contra mi equipo de 5!"], ["images", "https://www.infobae.com/new-resizer/TV1wXkpG_ydN26TowLQsK53jp7I=/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/24151125/Pollo-Vignolo-Ruggeri-futbol.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "3"], ["created_at", "2020-04-27 22:34:17.040088"], ["updated_at", "2020-04-27 22:34:17.040088"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "futbol el sabado"], ["description", "se juega el sabado 5 vs 5 cancha de pasto sitentico"], ["images", "http://lapatriaenlinea.com/fotos/05_2011/69925_1_26.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "1"], ["created_at", "2020-04-27 22:34:17.043081"], ["updated_at", "2020-04-27 22:34:17.043081"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.2ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Martes de fut"], ["description", "martes abierto para todos"], ["images", "https://sialdeporte.com/wp-content/uploads/2018/01/cancha-de-futbol-sala-1-1024x768.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "2"], ["created_at", "2020-04-27 22:34:17.046098"], ["updated_at", "2020-04-27 22:34:17.046098"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Desafios Abiertos!"], ["description", "desafios contra mi equipo de 5!"], ["images", "https://www.infobae.com/new-resizer/TV1wXkpG_ydN26TowLQsK53jp7I=/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/24151125/Pollo-Vignolo-Ruggeri-futbol.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "3"], ["created_at", "2020-04-27 22:34:17.048912"], ["updated_at", "2020-04-27 22:34:17.048912"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:34:21 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.95ms)
+Completed 200 OK in 21ms (Views: 16.7ms | ActiveRecord: 6.7ms | Allocations: 10764)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:39:17 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.62ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.5ms | Allocations: 2801)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:42:18 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.48ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 2801)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:45:30 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.65ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 2801)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:51:35 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (1.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (2.98ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 1.2ms | Allocations: 2883)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:51:50 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.35ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.5ms | Allocations: 2781)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:51:55 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (22.48ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.5ms | Allocations: 2784)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:52:19 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.41ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 2781)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:52:25 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.31ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms | Allocations: 2781)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:52:31 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.41ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms | Allocations: 2781)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:52:35 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.27ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 2781)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:52:38 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.36ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 2781)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:53:02 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.47ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.6ms | Allocations: 2781)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:53:08 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.85ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 2781)
+
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (72.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_development"[0m
+  [1m[35m (29.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "project_test"[0m
+  [1m[35m (138.8ms)[0m  [1m[35mCREATE DATABASE "project_development" ENCODING = 'unicode'[0m
+  [1m[35m (76.1ms)[0m  [1m[35mCREATE DATABASE "project_test" ENCODING = 'unicode'[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(279088437195799245)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20200217171234)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (44.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "platform" character varying, "password" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171234"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateEvents (20200217171614)
+  [1m[35m (40.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "title" character varying, "description" text, "images" character varying, "logo" character varying, "country" character varying, "maxParticipants" integer, "location" character varying, "user_id" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20200217171614"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-04-27 22:54:11.835463"], ["updated_at", "2020-04-27 22:54:11.835463"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(279088437195799245)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("platform", "password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["platform", "Facebook"], ["password", "test"], ["created_at", "2020-04-27 22:54:18.046420"], ["updated_at", "2020-04-27 22:54:18.046420"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.7ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "futbol el sabado"], ["description", "se juega el sabado 5 vs 5 cancha de pasto sitentico"], ["images", "http://lapatriaenlinea.com/fotos/05_2011/69925_1_26.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "1"], ["created_at", "2020-04-27 22:54:18.062358"], ["updated_at", "2020-04-27 22:54:18.062358"]]
+  [1m[35m (40.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Martes de fut"], ["description", "martes abierto para todos"], ["images", "https://sialdeporte.com/wp-content/uploads/2018/01/cancha-de-futbol-sala-1-1024x768.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "2"], ["created_at", "2020-04-27 22:54:18.106503"], ["updated_at", "2020-04-27 22:54:18.106503"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("title", "description", "images", "logo", "country", "maxParticipants", "location", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "Desafios Abiertos!"], ["description", "desafios contra mi equipo de 5!"], ["images", "https://www.infobae.com/new-resizer/TV1wXkpG_ydN26TowLQsK53jp7I=/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/24151125/Pollo-Vignolo-Ruggeri-futbol.jpg"], ["logo", "logo url here"], ["country", "Bolivia"], ["maxParticipants", 20], ["location", "plaza sur"], ["user_id", "3"], ["created_at", "2020-04-27 22:54:18.109816"], ["updated_at", "2020-04-27 22:54:18.109816"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:54:22 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.9ms)
+Completed 200 OK in 21ms (Views: 16.5ms | ActiveRecord: 7.5ms | Allocations: 9563)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:55:03 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.03ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:57:23 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.9ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.5ms | Allocations: 1600)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-04-27 18:57:42 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.89ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.5ms | Allocations: 1600)
+
+
