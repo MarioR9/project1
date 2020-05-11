@@ -1,3 +1,3 @@
 class EventSerializer < ActiveModel::Serializer
-  attributes :title, :id, :description, :images, :logo, :country, :maxParticipants, :location
+  attributes :title, :id, :deporte, :description, :images, :logo, :country, :maxParticipants, :location
 end

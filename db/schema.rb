@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2020_02_17_171614) do
 
   create_table "events", force: :cascade do |t|
     t.string "title"
+    t.string "deporte"
     t.text "description"
     t.string "images"
     t.string "logo"
