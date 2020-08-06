@@ -18761,3 +18761,21 @@ Processing by Api::V1::EventsController#index as JSON
 Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 3770)
 
 
+Started GET "/api/v1/events" for ::1 at 2020-08-06 10:44:19 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.87ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.4ms | Allocations: 3770)
+
+
+Started GET "/api/v1/events" for ::1 at 2020-08-06 10:44:45 -0400
+Processing by Api::V1::EventsController#index as JSON
+  Parameters: {"event"=>{}}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/controllers/api/v1/events_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.94ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 3770)
+
+
