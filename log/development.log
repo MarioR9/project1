@@ -18980,3 +18980,14 @@ Processing by Api::V1::UsersController#index as JSON
 Completed 200 OK in 43ms (Views: 30.8ms | ActiveRecord: 10.2ms | Allocations: 21746)
 
 
+Started GET "//api/v1/users" for ::1 at 2020-08-12 19:07:40 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::UsersController#index as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers]   [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."user_id" = $1[0m  [["user_id", "1"]]
+[active_model_serializers]   ↳ app/controllers/api/v1/users_controller.rb:5:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (20.24ms)
+Completed 200 OK in 42ms (Views: 29.7ms | ActiveRecord: 10.2ms | Allocations: 21720)
+
+
